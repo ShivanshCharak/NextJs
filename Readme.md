@@ -35,5 +35,5 @@ for example:- /about route needs a folder structure as src/app/about/page.tsx
 ![alt text](image-5.png)
 ## Catch all segements
 ![alt text](image-6.png)
-- Extra [] for handling the docs route without any slug params
+- Extra [] for handling the docs route without any slug paramss
 ![alt text](image-7.png)
