@@ -25,4 +25,9 @@
 The routes is dependednt on the foldername of the cotaining file
 for example:- /about route needs a folder structure as src/app/about/page.tsx 
 ![alt text](image.png)
-
+### Nested routes
+![alt text](image-1.png)
+![alt text](image-2.png)
+## Dynamic routes
+![alt text](image-3.png)
+![alt text](image-4.png)
