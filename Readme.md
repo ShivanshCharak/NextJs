@@ -37,3 +37,41 @@ for example:- /about route needs a folder structure as src/app/about/page.tsx
 ![alt text](image-6.png)
 - Extra [] for handling the docs route without any slug paramss
 ![alt text](image-7.png)
+## Page not found
+- The page which we see when we go to any unregitered route we see a 404 page we can customize this page
+- We just have to write a `not-found.tsx` file and call it like this
+```
+import { notFound } from 'next/navigation'
+import React from 'react'
+
+function ReviewDetail({
+    params
+}:{
+    params:{
+        productId:string,
+        reviewId:string,
+    }
+}) {
+    if(parseInt(params.reviewId)>1000){
+        notFound()
+    }
+  return (
+    <div>ReviewDetail</div>
+  )
+}
+
+export default ReviewDetail
+```
+## File Colocation
+- As we know folder name maps to the routes, but routes to work out we need to make sure that every folder has page.tsx
+## Private folders
+- A Private folder indiatced that it is aprivate implementation detaul and shud not be considered bu the routing system
+- The folder and all its subfolders are excluded from routing
+- Prefix the folder name with an underscore
+![alt text](image-8.png)
+The underscore before lib make it unaccessable
+### Advantges of using Private folders
+- For seperating UI Logic from routing logic
+- FOr consistently organizing internal files across a project
+- for soritng and grouping file in code editors
+- And finally for avoiding potential naming conflicts with future Next.js file conventions
