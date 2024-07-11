@@ -31,3 +31,9 @@ for example:- /about route needs a folder structure as src/app/about/page.tsx
 ## Dynamic routes
 ![alt text](image-3.png)
 ![alt text](image-4.png)
+## Nested Dynamic routes
+![alt text](image-5.png)
+## Catch all segements
+![alt text](image-6.png)
+- Extra [] for handling the docs route without any slug params
+![alt text](image-7.png)
