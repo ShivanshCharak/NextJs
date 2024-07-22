@@ -20,7 +20,7 @@
 ### Routing conventions
  - All routes must be placed inside the app folder
  - Every file that corresponds to a route must be names page.jsx or page.tsx
- - Every folder corresponds to a path sgement in the browser URL dddd
+ - Every folder corresponds to a path sgement in the browser URL
 ### File based Rotuing 
 The routes is dependednt on the foldername of the cotaining file
 for example:- /about route needs a folder structure as src/app/about/page.tsx 
