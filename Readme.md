@@ -1,6 +1,6 @@
 ## React server componenet
 - React sevrre component is a new architecture introduced by the react 18
-- The architecture intoduces a new wayof creating React componenets, Splitting them into two types
+- The architecture intoduces a new way of creating React componenets, Splitting them into two types
   - Server components
   - Slient components
 ## React server compponents contd
